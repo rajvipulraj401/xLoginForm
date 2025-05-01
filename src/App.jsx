@@ -76,7 +76,7 @@ const App = () => {
 
       {formSubmit ? (
         userVal == "user" && passVal == "password" ? (
-          <p>Welcome ,user!</p>
+          <p>Welcome, user</p>
         ) : (
           <p>Invalid username or password</p>
         )
